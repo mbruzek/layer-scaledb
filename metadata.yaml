@@ -1,0 +1,10 @@
+name: scaledb
+maintainers: Matthew Bruzek <matthew.bruzek@canonical.com>
+description: Scale DB a clustered mysql database.
+tags:
+  - database
+subordinate: false
+provides:
+  database:
+    interface: mysql
+
